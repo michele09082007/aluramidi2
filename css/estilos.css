@@ -1,14 +1,14 @@
 :root {
-  --cinza: #aaa;
+  --cinza: #686464;
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
-  --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --branca: #ffffff;
+  --luz: rgb(44, 48, 7);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background-image: url("../imagens/design-de-padrao-asteca-tradicional_670382-90557.avif");
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -18,8 +18,8 @@ body {
 
 h1 {
   color: var(--branca);
-  margin-bottom: 20px;
-  font-size: 2rem;
+  margin-bottom: 10px;
+  font-size: 6rem;
 }
 
 .teclado {
