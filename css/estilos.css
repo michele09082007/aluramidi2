@@ -1,5 +1,5 @@
 :root {
-  --cinza: #686464;
+  --cinza: #686464; 
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
   --branca: #ffffff;
@@ -8,7 +8,7 @@
 
 body {
   align-items: center;
-  background-image: url("../imagens/design-de-padrao-asteca-tradicional_670382-90557.avif");
+  background-image: url("../imagens/design-de-padrao-asteca-tradicional_670382-90562.jpg");
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,7 +23,7 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
@@ -49,14 +49,14 @@ h1 {
 .tecla.ativa,
 .tecla:active {
   background-color: var(--vermelha);
-  border: 4px solid  var(--vermelha);
+  border: 4px solid var(--vermelha);
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
   color: var(--branca);
   outline: none;
 }
 
 .tecla.focus,
-.tecla:focus {
+.tecça>focus {
   outline: none;
   box-shadow: 1px 1px 10px var(--luz);
 }
