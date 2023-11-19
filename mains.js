@@ -33,10 +33,6 @@ function tocaSomPsh() {
 }
 document.querySelector ('.tecla_psh').onclick= tocaSomPsh;
 
-function tocaSomTic() {
-    document.querySelector('#toca_som_tic').play();
-}
-document.querySelector ('.tecla_tic').onclick= tocaSomTic;
 
 function tocaSomTom() {
     document.querySelector('#som_tecla_tom').play();
