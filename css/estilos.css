@@ -4,6 +4,8 @@
   --vermelha-escura: #af303f;
   --branca: #ffffff;
   --luz: rgb(44, 48, 7);
+  --preto: #000000;
+
 }
 
 body {
@@ -17,7 +19,7 @@ body {
 }
 
 h1 {
-  color: var(--branca);
+  color: var(--preto);
   margin-bottom: 10px;
   font-size: 6rem;
 }
@@ -38,12 +40,12 @@ h1 {
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--vermelha);
   cursor: pointer;
-  height: 120px;
+  height: 200px;
   font-size: 1.75em;
   font-weight: bold;
-  line-height: 120px;
+  line-height: 200px;
   text-align: center;
-  width: 120px;
+  width: 200px;
 }
 
 .tecla.ativa,
